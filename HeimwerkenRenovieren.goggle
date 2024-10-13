@@ -1,0 +1,56 @@
+! name: Heimwerken und Renovieren Detailinfos
+! description: Suche für tiefe und hochwertige Informationen zum Heimwerken und Renovieren. Filtert Shops und Vermarktungsplattformen, Paywall-Medien sowie massenhaft auftauchende, allgemeine Contentanbieter und Vermittlungsportale aus. Experimentell (13.10.2024).
+! public: true
+! author: Bastian Birke
+! avatar: #0a7c00
+
+$discard,site=amazon.at
+$discard,site=amazon.com
+$discard,site=amazon.de
+%discard,site=abwshop.de
+$discard,site=bahre-cemo.de
+$discard,site=bauen.de
+$discard,site=baunativ-shop.de
+$discard,site=bausep.de
+$discard,site=baustoffplus.de
+$discard,site=benz24.de
+$discard,site=daemmen-und-sanieren.de
+$discard,site=daemmstoffonline.de
+$discard,site=daemmstoffshop.de
+$discard,site=dein-heizungsbauer.de
+$discard,site=ebay.at
+$discard,site=ebay.com
+$discard,site=ebay.de
+$discard,site=effizienzhaus-online.de
+$discard,site=energieheld.ch
+$discard,site=energieheld.de
+$discard,site=energie-experten.org
+$discard,site=energie-sparen-im-haushalt.de
+$discard,site=fertighaus.de
+$discard,site=gelbeseiten.de
+$discard,site=google.at
+$discard,site=google.com
+$discard,site=google.de
+$discard,site=hagebau-ott.de
+$discard,site=haus.de
+$discard,site=hausbauberater.de
+$discard,site=hausjournal.net
+$discard,site=heizung.de
+$discard,site=holzfaser.de
+$discard,site=holzland.de
+$discard,site=holzshop-vogtland.de
+$discard,site=immoportal.com
+$discard,site=immowelt.de
+$discard,site=lehm-bau-shop.de
+$discard,site=mein-naturbaumarkt.de
+$discard,site=maler.de
+$discard,site=maler.org
+$discard,site=merkur.de
+$discard,site=naturbaustoffe-nord.de
+$discard,site=obi.de
+$discard,site=sanier.de
+$discard,site=selbermachen.de
+$discard,site=selbst.de
+$discard,site=shop-cemo.de
+$discard,site=utopia.de
+$discard,site=willenbrockshop.de
