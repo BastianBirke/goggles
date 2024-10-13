@@ -1,9 +1,10 @@
 ! name: Heimwerken und Renovieren Detailinfos
-! description: Suche für tiefe und hochwertige Informationen zum Heimwerken und Renovieren. Filtert Shops und Vermarktungsplattformen, Paywall-Medien sowie massenhaft auftauchende, allgemeine Contentanbieter und Vermittlungsportale aus. Experimentell (13.10.2024).
+! description: Suche für tiefe und hochwertige Informationen zum Heimwerken und Renovieren. Filtert Shops und Vermarktungsplattformen, Paywall-Medien sowie massenhaft auftauchende, allgemeine Contentanbieter und Vermittlungsportale aus. Bevorzugt Foren und hochwertige Publikationen. Experimentell (13.10.2024).
 ! public: true
 ! author: Bastian Birke
-! avatar: #0a7c00
+! avatar: #806000
 
+$discard,site=1000-haushaltstipps.de
 $discard,site=amazon.at
 $discard,site=amazon.com
 $discard,site=amazon.de
@@ -13,11 +14,14 @@ $discard,site=bauen.de
 $discard,site=baunativ-shop.de
 $discard,site=bausep.de
 $discard,site=baustoffplus.de
+$discard,site=baustoffshop.de
+$discard,site=benz24.at
 $discard,site=benz24.de
 $discard,site=daemmen-und-sanieren.de
 $discard,site=daemmstoffonline.de
 $discard,site=daemmstoffshop.de
 $discard,site=dein-heizungsbauer.de
+$discard,site=dernaturbaumarkt24.de
 $discard,site=ebay.at
 $discard,site=ebay.com
 $discard,site=ebay.de
@@ -25,32 +29,60 @@ $discard,site=effizienzhaus-online.de
 $discard,site=energieheld.ch
 $discard,site=energieheld.de
 $discard,site=energie-experten.org
+$discard,site=energie-fachberater.de
 $discard,site=energie-sparen-im-haushalt.de
 $discard,site=fertighaus.de
+$discard,site=financescout24.de
 $discard,site=gelbeseiten.de
 $discard,site=google.at
 $discard,site=google.com
 $discard,site=google.de
+$discard,site=guter-rat.de
 $discard,site=hagebau-ott.de
 $discard,site=haus.de
 $discard,site=hausbauberater.de
 $discard,site=hausjournal.net
+$discard,site=hausmagazin.com
 $discard,site=heizung.de
+$discard,site=helpster.de
 $discard,site=holzfaser.de
 $discard,site=holzland.de
 $discard,site=holzshop-vogtland.de
+$discard,site=hornbach.at
+$discard,site=hornbach.de
 $discard,site=immoportal.com
 $discard,site=immowelt.de
+$discard,site=kesselheld.de
 $discard,site=lehm-bau-shop.de
 $discard,site=mein-naturbaumarkt.de
 $discard,site=maler.de
 $discard,site=maler.org
+$discard,site=malerblatt.de
+$discard,site=mein-eigenheim.de
 $discard,site=merkur.de
+$discard,site=musterhaus.net
+$discard,site=naturbauhof.de
 $discard,site=naturbaustoffe-nord.de
+$discard,site=obi.at
 $discard,site=obi.de
+$discard,site=oekologische-baustoffe.de
+$discard,site=oekoplus.com
 $discard,site=sanier.de
+$discard,site=schoener-wohnen.de
 $discard,site=selbermachen.de
 $discard,site=selbst.de
 $discard,site=shop-cemo.de
+$discard,site=tipp-zum-bau.de
 $discard,site=utopia.de
 $discard,site=willenbrockshop.de
+$discard,site=wohnglueck.de
+$boost=4,site=abenteuer-altbau.de/
+$boost=4,site=bauexpertenforum.de/
+$boost=4,site=daemmatlas.de/
+$boost=4,site=dasheimwerkerforum.de
+$boost=4,site=fachwerk.de
+$boost=4,site=forum.abenteuer-altbau.de/
+$boost=4,site=fraunhofer.de
+$boost=4,site=haustechnikdialog.de
+$boost=4,site=ubakus.de/
+$boost=4,site=wufi.de
