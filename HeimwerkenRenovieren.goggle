@@ -1,5 +1,5 @@
 ! name: Heimwerken, Renovieren, Bau Detailinfos
-! description: Suche für detaillierte Informationen zu Bau, Heimwerken, Renovieren. Filtert Shops und Vermarktungsplattformen, Paywall-Medien sowie massenhaft auftauchende, allgemeine Contentanbieter und Vermittlungsportale aus. Bevorzugt Foren und hochwertige Publikationen. Experimentell (13.10.2024).
+! description: Detaillierte Infos zu Bau, Heimwerken, Renovieren. Filtert Shops und Vermarktungsplattformen, Paywalls, massenhaft auftauchende, allgemeine Contentanbieter, Vermittlungsportale. Bevorzugt Foren, hochwertige Publikationen. Experimentell.
 ! public: true
 ! author: Bastian Birke
 ! avatar: #806000
@@ -77,9 +77,19 @@ $discard,site=hurra-wir-bauen.de
 $discard,site=immoportal.com
 $discard,site=immowelt.de
 $discard,site=intelligent-heizen.info
+$discard,site=isoshop24.com
 $discard,site=jumbo-shop.de
+$discard,site=kalziumsilikatplatten.com
 $discard,site=kesselheld.de
+$discard,site=kleinanzeigen.de
+$discard,site=klimaplatte.shop
+$discard,site=klimaplatte.store
+$discard,site=klimaplatte24.de
+$discard,site=klimaplatten.net
+$discard,site=klimaplatten-discount.de
 $discard,site=klimaplatten-shop.de
+$discard,site=klimaplattenshop.com
+$discard,site=klimaplattenshop.de
 $discard,site=lehm-bau-shop.de
 $discard,site=lernhelfer.de
 $discard,site=lieferanten.de
@@ -99,11 +109,13 @@ $discard,site=obi.at
 $discard,site=obi.de
 $discard,site=oekologische-baustoffe.de
 $discard,site=oekoplus.com
+$discard,site=ofen.de
 $discard,site=pfiffigwohnen.de
 $discard,site=regutech24.de
 $discard,site=reuter.de
 $discard,site=sanier.de
 $discard,site=sanitaer.org
+$discard,site=schamotte-shop.de
 $discard,site=schoener-wohnen.de
 $discard,site=selbermachen.de
 $discard,site=selbst.de
@@ -112,6 +124,8 @@ $discard,site=silconia.de
 $discard,site=stonenaturelle.at
 $discard,site=tipp-zum-bau.de
 $discard,site=toom.de
+$discard,site=trustami.com
+$discard,site=trustedshops.de
 $discard,site=unserdaheim.at
 $discard,site=werkzeug-news.de
 $discard,site=willenbrockshop.de
@@ -130,6 +144,7 @@ $downrank,site=utopia.de
 ! Boost Level 2: Detaillierte Informationsquellen, außer von Herstellern
 
 $boost=2,site=abenteuer-altbau.de
+$boost=2,site=bauherrenhilfe.org
 $boost=2,site=daemmatlas.de
 $boost=2,site=fraunhofer.de
 $boost=2,site=passipedia.de
@@ -140,6 +155,7 @@ $boost=2,site=wufi.de
 ! Boost Level 1: Foren, Sites mit Foren
 
 $boost,site=bau.net
+$boost,site=bau-treff.de
 $boost,site=bauexpertenforum.de
 $boost,site=dasheimwerkerforum.de
 $boost,site=energiesparhaus.at
